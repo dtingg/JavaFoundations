@@ -10,7 +10,6 @@ public class StopAct {
         FileReader fr = null;
         File file;
 
-
         try {
             file = new File("src/stop.txt");
             pw = new PrintWriter(file);
@@ -19,7 +18,6 @@ public class StopAct {
 
             pw.flush();
             pw.close();
-
 
             fr = new FileReader(file);
             int data = fr.read();
@@ -32,11 +30,10 @@ public class StopAct {
             }
             fr.close();
 
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             pw.close();
         }
-
-    }}
+    }
+}

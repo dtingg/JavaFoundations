@@ -21,7 +21,6 @@ public class BufferedReaderEx {
         br.close();
         fr.close();
 
-
     } catch(FileNotFoundException e){
         e.printStackTrace();
         System.out.println("File not found");
@@ -37,4 +36,6 @@ public class BufferedReaderEx {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }}}
+    }
+    }
+}

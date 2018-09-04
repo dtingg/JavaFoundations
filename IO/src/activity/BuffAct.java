@@ -12,12 +12,10 @@ public class BuffAct {
         BufferedReader br = null;
         File file;
 
-
         //Initiate scanner
         Scanner in = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = in.nextLine();
-
 
         try{
             file = new File ("src/name.txt");
@@ -58,4 +56,6 @@ public class BuffAct {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        }}}
+        }
+    }
+}
