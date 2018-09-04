@@ -1,0 +1,4 @@
+true
+123
+123.456
+Product name is iPhone and its price is 1000
