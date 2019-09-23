@@ -9,7 +9,7 @@ For this assignment, you will create a basic library system. This system will be
  
 **Packages:**  
 There will be two packages in this assignment
-* com.`<firstinitialastname>`ie com.cburke
+* com.`<firstinitialastname>` ie com.cburke
   * The LibraryDriver class will exist in this package
 * com.`<first_initial_lastname>`.library
   * Book and Library Member classes will exist in this package
