@@ -9,7 +9,7 @@ For this assignment, you will create a basic library system. This system will be
  
 **Packages:**  
 There will be two packages in this assignment
-* com.`<firstinitialastname>` ie com.cburke
+* com.`<firstinitialastname>`ie com.cburke
   * The LibraryDriver class will exist in this package
 * com.`<first_initial_lastname>`.library
   * Book and Library Member classes will exist in this package
@@ -17,14 +17,16 @@ There will be two packages in this assignment
 **Classes:**
 
 **Book:**  
-**data members:** title, author, published date, publishing company, checked out  
-**methods:** constructor, appropriate getters and setters, printStatus
+
+**data members:** title, author, published date, publishing company, checked out    
+**methods:** constructor, appropriate getters and setters, printStatus  
 
 printStatus method will print to the console “Book is not checked out.” if the book is not checked out, otherwise the it will print “Book is checked out.”
 
 **LibraryMember:**  
-**data members:** first name, last name, Book checked out  
-**methods:** constructor, appropriate getters and setters, checkOutBook
+
+**data members:** first name, last name, Book checked out    
+**methods:** constructor, appropriate getters and setters, checkOutBook  
 
 The “checkOutBook” method has the following requirements:
 * it will take a Book object as a parameter
