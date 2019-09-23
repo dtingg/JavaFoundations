@@ -6,17 +6,17 @@ Be sure to javadoc your code where applicable and provide meaningful comments.
 
 A sample output is given below.
 
-Enter your coordinate string command: ur
+Enter your coordinate string command: ur  
 (1,1)
 
-Enter your coordinate string command: urld
+Enter your coordinate string command: urld  
 (0,0)
 
-Enter your coordinate string command: uUr
+Enter your coordinate string command: uUr  
 (1,2)
 
-Enter your coordinate string command: 2dd2d54r
+Enter your coordinate string command: 2dd2d54r  
 (54,-5)
 
-Enter your coordinate string command: 2?%gD
+Enter your coordinate string command: 2?%gD  
 (0,-1)
